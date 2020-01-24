@@ -20,13 +20,12 @@
 сразу после присваивания, # TODO: нужно разобраться с переобределнием переменной  */
 
 
-// let nums = (number) => {
-//     let anotherStr = '610';
-//     let anotherNum = 10;
-//
-//     anotherStr = Number(value) + anotherNum;
-// };
-// console.log(nums(12)); //# FIXME: тут выводит undefined, переписать как разберусь с функциями
+let anotherStr = '610';
+let anotherNum = 10;
+
+let sums = Number(anotherStr) + anotherNum;
+
+console.log(sums); //# FIXME: тут выводит undefined, переписать как разберусь с функциями // решено, убрал пока функцию
 
 // /* Задача на преобразование типов */
 // "" + 1 + 0 // 10
